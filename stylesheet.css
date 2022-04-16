@@ -6,10 +6,6 @@
     background-color: #388bfd66;
 }
 
-.markdown-body * .octicon-link {
-    color: #c9d1d9 !important;
-}
-
 .revision-item:hover,
 .revision-card .revision-card-heading:hover {
     background-color: #161b22!important;
@@ -20,9 +16,22 @@
     background-color: #1f6feb!important;
 }
 
-.modal-body.hmd-text-center,
-.modal-body .text-black-brand {
-    color: #fff !important;
+.footnote-backref {
+    font-family: monospace!important;
+}
+
+.github-sync-modal .version-list {
+    color: #c9d1d9;
+}
+
+.ui-github-sync {
+    background-image: linear-gradient(#bb800926, #bb800926);
+    border-top: 1px solid #bb800966;
+    border-bottom: 1px solid #bb800966!important;
+}
+
+.markdown-body * .octicon-link {
+    color: #c9d1d9 !important;
 }
 
 #namedRevisionModal .sidebar.revision-list-container,
@@ -38,15 +47,10 @@
     border-color: #30363d;
     color: #c9d1d9;
 }
-.footnote-backref {
-    font-family: monospace!important;
-}
-.github-sync-modal .version-list {
-    color: #c9d1d9;
-}
 
-.ui-github-sync {
-    border-bottom: 1px solid #30363d!important;
+#namedRevisionModal .signin-to-connect,
+#namedRevisionModal .no-connect-github {
+    color: #c9d1d9!important;
 }
 
 /*--------------- view ---------------*/
@@ -523,7 +527,7 @@ footer a {
 .markdown-body h6,
 #doc > h1 {
     color: #c9d1d9;
-    border-color: #21262d !important;
+    border-color: #777 !important;
 }
 
 .markdown-body hr {
@@ -584,7 +588,7 @@ h6 small {
 
 .markdown-body blockquote {
     color: #c9d1d9;
-    border-left-color: #21262d;
+    border-left-color: #777;
     font-size: 16px;
 }
 
@@ -724,72 +728,32 @@ mark {
 }
 
 /* alert */
-.alert-danger h1,
-.alert-danger h2,
-.alert-danger h3,
-.alert-danger h4,
-.alert-danger h5,
-.alert-danger h6,
-.alert-danger p,
-.alert-danger mark,
-.alert-danger ul li,
-.alert-danger ol li {
-    color: #721c24;
+.alert-success {
+	color: #c9d1d9;
+	background-image: linear-gradient(#2ea04326, #2ea04326);
+    background-color: unset;
+	border-color: #2ea04366;
 }
 
-.alert-danger hr {
-    background-color: #721c24;
+.alert-info {
+	color: #c9d1d9;
+	background-image: linear-gradient(#388bfd26, #388bfd26);
+    background-color: unset;
+	border-color: #388bfd66;
 }
 
-.alert-warning h1,
-.alert-warning h2,
-.alert-warning h3,
-.alert-warning h4,
-.alert-warning h5,
-.alert-warning h6,
-.alert-warning p,
-.alert-warning mark,
-.alert-warning ul li,
-.alert-warning ol li {
-    color: #856404;
+.alert-warning {
+	color: #c9d1d9;
+	background-image: linear-gradient(#bb800926, #bb800926);
+    background-color: unset;
+	border-color: #bb800966;
 }
 
-.alert-warning hr {
-    background-color: #856404;
-}
-
-.alert-success h1,
-.alert-success h2,
-.alert-success h3,
-.alert-success h4,
-.alert-success h5,
-.alert-success h6,
-.alert-success p,
-.alert-success mark,
-.alert-success ul li,
-.alert-success ol li {
-    color: #155724;
-}
-
-.alert-success hr {
-    background-color: #155724;
-}
-
-.alert-info h1,
-.alert-info h2,
-.alert-info h3,
-.alert-info h4,
-.alert-info h5,
-.alert-info h6,
-.alert-info p,
-.alert-info mark,
-.alert-info ul li,
-.alert-info ol li {
-    color: #004085;
-}
-
-.alert-info hr {
-    background-color: #004085;
+.alert-danger {
+	color: #c9d1d9;
+	background-image: linear-gradient(#f8514926, #f8514926);
+    background-color: unset;
+	border-color: #f8514966;
 }
 
 .alert a {
@@ -820,33 +784,11 @@ mark {
     margin-bottom: 0;
 }
 
-.alert-warning {
-    background-color: #fff3cd;
-    border-color: #ffeeba;
-}
-
-.alert-danger mark {
-    background-color: #ffb7b7 !important;
-}
-
-.alert-warning mark {
-    background-color: #ffe966 !important;
-}
-
-.alert-success mark {
-    background-color: #b9e990 !important;
-}
-
-.alert-info mark {
-    background-color: #b1d6ff !important;
-}
-
 /* scroll bar */
 .ui-edit-area .ui-resizable-handle.ui-resizable-e {
     background-color: #161b22;
-    border-color: #30363d;
-    border-style: solid;
-    border-width: 0 1px 1px;
+    border-left: 1px solid #30363d;
+    border-right: 1px solid #30363d;
     box-shadow: none;
 }
 
@@ -989,10 +931,6 @@ mark {
     color: #b0ee83;
 }
 
-.cm-s-one-dark .CodeMirror-linenumber {
-    color: #666;
-}
-
 .cm-strong {
     color: #f4511e;
 }
@@ -1011,15 +949,6 @@ mark {
 
 .cm-negative {
     color: #ff3e3e;
-}
-
-.dropdown-menu.CodeMirror-other-cursor {
-    border: 2px solid #4d4d4d;
-    background-color: #202020;
-}
-
-.dropdown-menu.CodeMirror-other-cursor li a {
-    color: #ececec;
 }
 
 /*--------------- book mode ---------------*/
@@ -1042,7 +971,7 @@ mark {
 .toolbar,
 .tool-bar {
     background: #161b22 !important;
-    border-color: #4d4d4d !important;
+    border-color: #30363d !important;
 }
 
 .toolbar i {
@@ -1053,7 +982,7 @@ mark {
 .summary h2,
 .summary h3 .summary hr {
     color: #c9d1d9;
-    border-color: #21262d !important;
+    border-color: #777 !important;
 }
 
 .summary h1.collapsible:not(:first-child),
@@ -1062,9 +991,8 @@ mark {
 .summary h4.collapsible:not(:first-child),
 .summary h5.collapsible:not(:first-child),
 .summary h6.collapsible:not(:first-child) {
-    border-color: #30363d !important;
+    border-top: solid 1px #e7e7e7;
 }
-
 .summary .nav > li > a {
     color: #58a6ff;
 }
@@ -1307,6 +1235,11 @@ ui-view-area::-webkit-scrollbar-thumb {
     box-shadow: unset
 }
 
+.modal-body,
+.text-black-brand {
+    color: #fff!important;
+}
+
 .modal-header {
     border-bottom: 1px solid #30363d;
 }
@@ -1348,18 +1281,6 @@ button.close,
     opacity: .8;
 }
 
-.CodeMirror {
-    background: #0d1117;
-}
-
-.CodeMirror-gutters {
-    background: #0d1117;
-    border-right: 1px solid rgba(204, 217, 255, 0.1);
-}
-.CodeMirror pre.CodeMirror-line,
-.CodeMirror pre.CodeMirror-line-like {
-    color: #c9d1d9;
-}
 .cm-s-default .cm-comment {
     color: #888;
 }
@@ -1414,18 +1335,6 @@ button.close,
 
 div[contenteditable]:empty:not(:focus):before {
     color: #aaa;
-}
-
-.CodeMirror pre {
-    color: #c9d1d9;
-}
-
-.CodeMirror pre span[style^="background-color: rgb(221, 251, 230)"] {
-    background-color: #288c27 !important;
-}
-
-.CodeMirror pre span[style^="background-color: rgb(249, 215, 220)"] {
-    background-color: #a52721 !important;
 }
 
 /*------- code highlight: Visual Stutdio Code theme for highlight.js -------*/
