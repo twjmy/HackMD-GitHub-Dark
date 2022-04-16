@@ -527,7 +527,7 @@ footer a {
 .markdown-body h6,
 #doc > h1 {
     color: #c9d1d9;
-    border-color: #777 !important;
+    border-color: #30363d !important;
 }
 
 .markdown-body hr {
@@ -982,7 +982,7 @@ mark {
 .summary h2,
 .summary h3 .summary hr {
     color: #c9d1d9;
-    border-color: #777 !important;
+    border-color: #30363d !important;
 }
 
 .summary h1.collapsible:not(:first-child),
@@ -991,7 +991,7 @@ mark {
 .summary h4.collapsible:not(:first-child),
 .summary h5.collapsible:not(:first-child),
 .summary h6.collapsible:not(:first-child) {
-    border-top: solid 1px #e7e7e7;
+    border-top: solid 1px #30363d;
 }
 .summary .nav > li > a {
     color: #58a6ff;
