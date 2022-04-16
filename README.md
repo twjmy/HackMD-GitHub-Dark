@@ -14,8 +14,6 @@
 
 ![step3](https://i.imgur.com/yr5scgT.png)
 
-<script src="https://gist.github.com/twjmy/86017df613c316b5624711232974adc1.js"></script>
-
 套用給所有 HackMD 筆記
 
 ![step4](https://i.imgur.com/UcCvgnO.png)
