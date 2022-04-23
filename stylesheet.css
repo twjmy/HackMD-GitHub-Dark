@@ -34,6 +34,17 @@
     color: #c9d1d9 !important;
 }
 
+.markdown-body kbd, .popover kbd {
+    font: 11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+	line-height: 10px;
+	color: #c9d1d9;
+	background-color: #161b22;
+	border: solid 1px #6e768166;
+	border-bottom-color: #6e768166;
+	border-radius: 6px;
+	box-shadow: inset 0 -1px 0 #6e768166;
+}
+
 #namedRevisionModal .sidebar.revision-list-container,
 #namedRevisionModal #revision-operation-panel,
 #namedRevisionModal #revisionSummary,
