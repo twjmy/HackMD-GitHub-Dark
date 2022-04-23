@@ -1,5 +1,7 @@
 # HackMD GitHub Dark 主題使用說明
 
+> [stylesheet.css](./stylesheet.css) 修改自 https://github.com/titangene/hackmd-dark-theme/blob/master/custom.css
+
 ## 方法1
 
 安裝 Chrome 瀏覽器插件 [Stylus[點我前往]][url-stylus]
