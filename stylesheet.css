@@ -6,6 +6,10 @@
     background-color: #388bfd66;
 }
 
+.modal .CodeMirror{
+    filter: invert(100%);
+}
+
 .revision-item:hover,
 .revision-card .revision-card-heading:hover {
     background-color: #161b22!important;
